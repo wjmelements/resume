@@ -4,3 +4,7 @@ Archieve/
 *.aux
 *.log
 *.out
+
+# VIM
+*.swo
+*.swp
