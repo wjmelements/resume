@@ -1,6 +1,11 @@
 PDFLATEX=pdflatex
 
-default: resume.pdf
+default: WilliamMorriss.pdf
 
+.PHONY: clean default
+CRAP=*.out *.log *.aux
 %.pdf: %.tex
 	$(PDFLATEX) $<
+
+clean:
+	rm -rf $(CRAP)
