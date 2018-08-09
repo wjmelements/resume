@@ -6,6 +6,7 @@
 
 \documentclass[letterpaper,11pt]{article}
 
+\usepackage{tabularx}
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -120,7 +121,7 @@
 
     \resumeSubheading
       {Snap}{Venice, CA}
-      {Software Engineer}{Jun 2015 - Nov 2018}
+      {Mobile Software Engineer}{Jun 2015 - Nov 2018}
       \resumeItemListStart
         \resumeItem{Memories}
           {Created and shipped Memories for both iOS and Android}
@@ -165,13 +166,15 @@
 
 %--------PROGRAMMING SKILLS------------
 \section{Proficiencies}
-  \textbf{Languages (Expert)}{: C, C++, Java, Solidity, Javascript, Objective-C}
+\begin{tabularx}{\textwidth}{ X X }
+  \textbf{Languages (Expert)}: & C, C++, Java, Solidity, Javascript, Objective-C
   \\
-  \textbf{Languages (Experienced)}{: Bash, Perl, Haskell, R, Prolog}
+  \textbf{Languages (Experienced)}: & Bash, Perl, Haskell, R, Prolog
   \\
-  \textbf{Selected Tools}{: git, make, cURL, vim}
+  \textbf{Selected Tools}: & git, make, cURL, vim
   \\
-  \textbf{Misc}{: iOS, Android, Linux, Ethereum, SQL}
+  \textbf{Misc}: & iOS, Android, Linux, Ethereum, SQL
+\end{tabularx}
 
 %-------------------------------------------
 \end{document}
