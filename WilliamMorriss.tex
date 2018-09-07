@@ -62,6 +62,14 @@
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-5pt}
 }
+\newcommand{\resumeSubheadings}[5]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small #5} \\
+    \end{tabular*}\vspace{-5pt}
+}
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 
@@ -103,15 +111,17 @@
 
     \resumeSubheading
       {Consensys}{San Fransisco, CA}
-      {Blockchain Engineer}{May 2018 - Present}
+      {Blockchain Engineer}{May - Aug 2018}
       \resumeItemListStart
-        \resumeItem{MetaMask-iOS}
-          {Independently creating mobile cryptocurrency wallet and dapp browser}
+        \resumeItemOne{Prototyped mobile ethereum wallet and dapp browser}
+        \resumeItem{uPort}
+          {Implemented EIP155 for iOS uPort}
       \resumeItemListEnd
 
-    \resumeSubheading
+    \resumeSubheadings
       {Vulcanize.io}{Los Angeles, CA}
       {Blockchain Engineering Contractor}{Mar 2018}
+      {\textit{\small github.com/vulcanize/message\_board\_solidity}}
       \resumeItemListStart
         \resumeItem{AppToken}
           {Gas-efficient token with approved application contracts and application-approval DAO}
@@ -142,6 +152,11 @@
       \resumeItemListStart
         \resumeItemOne{Forum powered by Ethereum smart contracts that rewards controversial discourse}
       \resumeItemListEnd
+    \resumeSubheading{Grafiti}{Nov 2017}
+      {github.com/wjmelements/pub}{grafiti.online}
+      \resumeItemListStart
+        \resumeItemOne{Simple blockchain archiving dapp}
+      \resumeItemListEnd
     \resumeSubheading{Paretto}{Oct 2014 - Jan 2017}
       {bitbucket.org/wjmelements/colors}{Available on the iOS App Store}
       \resumeItemListStart
@@ -167,13 +182,13 @@
 %--------PROGRAMMING SKILLS------------
 \section{Proficiencies}
 \begin{tabularx}{\textwidth}{ X X }
-  \textbf{Languages (Expert)}: & C, C++, Java, Solidity, Javascript, Objective-C
+  \textbf{Languages (Expert)} & C, C++, Java, Solidity, Objective-C
   \\
-  \textbf{Languages (Experienced)}: & Bash, Perl, Haskell, R, Prolog
+  \textbf{Languages (Experienced)} & Javascript, Bash, Perl, Haskell, R, Prolog
   \\
-  \textbf{Selected Tools}: & git, make, cURL, vim
+  \textbf{Selected Tools} & git, make, cURL, vim
   \\
-  \textbf{Misc}: & iOS, Android, Linux, Ethereum, SQL
+  \textbf{Misc} & iOS, Android, Linux, Ethereum, SQL
 \end{tabularx}
 
 %-------------------------------------------
