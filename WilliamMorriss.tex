@@ -112,16 +112,26 @@
       {VM Capital}{Remote}
       {Founder/CTO}{Feb 2020 - Present}
       \resumeItemListStart
-        \resumeItem{Lead Blockchain Engineer}
-          {Implemented, optimized, and audited batcher and protocol-adapter smart contracts}
-        \resumeItem{Engineering manager}
-          {Built and managed a team of engineers: triaging tasks and developing junior engineers}
-        \resumeItem{Tech lead}
-          {Optimized flow and graph algorithms, researched protocols, developed trading strategies}
+        \resumeItem{Lead Blockchain Engineer}{}
+          \vspace{-2pt}
+          \resumeItemListStart
+            \resumeItem{Smart Contracts}{Implemented and optimized dozens of smart contracts in Solidity and EVM assembly}
+            \resumeItem{Auditing}{Discovered and disclosed 2 Critical vulnerabilities in 3rd party deployments}
+            \resumeItem{Automation}{Engineered tooling to quickly debug reverts and detect vulnerabilities}
+          \resumeItemListEnd
+          \vspace{2pt}
+        \resumeItem{Lead Backend Engineer}{}
+          \vspace{-2pt}
+          \resumeItemListStart
+            \resumeItem{go-ethereum}{Implemented state subscription system for backrunning and block updates}
+            \resumeItem{ArbitrageEngine}{Implemented graph algorithm generalizing arbitrage for various DeFi protocols}
+            \resumeItem{Automation}{Developed tools generating boilerplate from ABI and creating test cases from crash dumps}
+          \resumeItemListEnd
+          \vspace{2pt}
+        \resumeItem{Engineering Manager}
+          {Built and managed a team of engineers: triaging tasks and cultivating junior engineers}
         \resumeItem{MEV Innovator}
-          {Pioneered stablecoin arbitrage, backrunning, gas griefing, general-purpose batching, 2byte ABI}
-        \resumeItem{EIP Champion}
-          {Advanced company interests within the Ethereum roadmap, including EIP-3651 and EIP-5920}
+          {Pioneered stablecoin arbitrage, backrunning, gas griefing, generalized batching, 2byte ABI}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -162,27 +172,22 @@
 
 
 %-----------PROJECTS-----------------
-\section{Personal Projects}
+\section{Recent Personal Projects}
   \resumeSubHeadingListStart
     \resumeSubheading{EVM}{Jan 2020 - Present}
       {github.com/wjmelements/evm}{}
       \resumeItemListStart
         \resumeItemOne{Ethereum Virtual Machine assembler, disassembler, and debugger}
       \resumeItemListEnd
+    \resumeSubheading{Uniswap V4}{Jul - Oct 2024}
+      {github.com/Uniswap/v4-core}{}
+      \resumeItemListStart
+        \resumeItemOne{Merged three optimizations reducing swap gas}
+      \resumeItemListEnd
     \resumeSubheading{Paretto}{Oct 2014 - Jan 2017}
       {bitbucket.org/wjmelements/colors}{Formerly on the iOS App Store}
       \resumeItemListStart
         \resumeItemOne{iOS puzzle and survival game based on the four-color theorem}
-      \resumeItemListEnd
-    \resumeSubheading{Meerchat}{Apr - Dec 2014}
-      {bitbucket.org/wjmelements/asl}{Formerly meerchat.net}
-      \resumeItemListStart
-        \resumeItemOne{Peer-to-peer messenger powered by WebRTC supporting images, video chat, and synchronized Youtube}
-      \resumeItemListEnd
-    \resumeSubheading{Bukkake}{Apr 2013 - Sep 2014}
-      {bitbucket.org/wjmelements/bukkake}{}
-      \resumeItemListStart
-        \resumeItemOne{x64 JIT compiler for parallel brainfuck}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
